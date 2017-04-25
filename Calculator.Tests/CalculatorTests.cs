@@ -36,5 +36,11 @@ namespace Calculator.Tests
             int result = Calculator.Modules(10,5);
             Assert.AreEqual(0, result);
         }
+        [TestMethod]
+        public void ThisIsANewTest()
+        {
+            string result = Calculator.Test("Hello");
+            Assert.AreEqual("Hello", result);
+        }
     }
 }

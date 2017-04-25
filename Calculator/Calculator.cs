@@ -28,5 +28,9 @@ namespace Calculator
         {
             return x % y;
         }
+        public static string Test(string hello)
+        {
+            return "Hello";
+        }
     }
 }
